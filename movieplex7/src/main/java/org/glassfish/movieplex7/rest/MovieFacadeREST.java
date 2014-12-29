@@ -40,6 +40,7 @@
 package org.glassfish.movieplex7.rest;
 
 import java.util.List;
+
 import javax.ejb.Stateless;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
@@ -52,6 +53,7 @@ import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+
 import org.glassfish.movieplex7.entities.Movie;
 
 /**
